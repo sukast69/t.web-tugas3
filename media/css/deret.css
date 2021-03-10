@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #6900d1;
+}
+
+.navbar {
+    padding-top: 20px !important;
+}
+
+.nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 12px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+}
+
+.navbar-brand img {
+    width: 125px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px !important;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+
+.active-home {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.banner {
+    margin-top: 5%;
+    color: #fff;
+}
+
+.fibonannci {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffff;
+    overflow: hidden;
+}
+
+.form-containers {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.fibonanncis {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.fibonannci .btn {
+    text-align: center !important;
+}
+
+.fibonannci h2 {
+    margin-top: 20px;
+}
+
+.fibonannci h5 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.result {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.fibonancis-result {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.result-containers {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5rem;
+    overflow: hidden;
+}
+
+.tittle {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    padding: 0 .4rem;
+}
+
+.input-field input {
+    background: none;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.input-field input::placeholder {
+    color: #aaaa;
+    font-weight: 500;
+}
+
+.btn {
+    margin: auto;
+    width: 150px;
+    height: 49px;
+    background-color: #8418ffcc !important;
+    color: #fff !important;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #6900d1 !important;
+}
+
+@media (max-width: 570px) {
+    .result-containers {
+        margin-bottom: 10%;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .fibonancis-result {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .carousel-item {
+        height: 520px;
+    }
+    .carousel-caption {
+        margin: 0 10px 50px 10px;
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
